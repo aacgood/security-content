@@ -9,4 +9,5 @@ inputs:
   - name: resource-security-content
   
 run:
-  path: resource-security-content/.concourse/generate.sh
+  path: /bin/bash
+  args: ["resource-security-content/.concourse/generate.sh"]
